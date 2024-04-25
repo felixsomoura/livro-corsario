@@ -14,8 +14,8 @@ function draw() {
   
   //console.log(url);
   //getURL();
-  //getURLParams();
-  //var params = getURLParams();
+  getURLParams();
+  var params = getURLParams();
   
   background(29, 29, 27);
   
@@ -35,11 +35,11 @@ function draw() {
   divCaixa.addClass('caixa');
   divCaixa.center('horizontal'); 
   
-  pTitulo = createP(tabela.get(81,0));
+  pTitulo = createP(tabela.get(params.spell,0));
   pTitulo.addClass('titulo');   
   pTitulo.parent(divCaixa);
   
-  pCategoria = createP('Magia de' + " " + tabela.get(81,3));
+  pCategoria = createP('Magia de' + " " + tabela.get(params.spell,3));
   pCategoria.addClass('categoria');   
   pCategoria.parent(divCaixa);
   
@@ -47,7 +47,7 @@ function draw() {
   hrLinha.addClass('hr');   
   hrLinha.parent(divCaixa);
   
-  pCorpo = createP(tabela.get(81,14));
+  pCorpo = createP(tabela.get(params.spell,14));
   pCorpo.addClass('corpo');   
   pCorpo.parent(divCaixa);
 }
