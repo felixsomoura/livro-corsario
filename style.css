@@ -1,0 +1,60 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.caixaBig{
+  background-color: #FFFAF4; 
+  padding-left: 15px;
+  border:2px solid rgb(0,0,0);
+  width: 40%;
+  outline: 4px solid #8B97FF;
+  margin-top:4px;
+}
+
+.caixaSmall{
+  background-color: #FFFAF4; 
+  padding-left: 15px;
+  border:2px solid rgb(0,0,0);
+  width: 80%;
+  outline: 4px solid #8B97FF;
+  margin-top:4px;
+}
+
+.titulo{
+  color: rgb(0,0,0);
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.categoria{
+  color: rgb(0,0,0);
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin-top: 1px;
+  }
+
+.hr{
+  border: 1px solid #8B97FF;
+  width: 70%;
+}
+  
+.corpo{
+  color: rgb(0,0,0);
+  font-size: 15px;
+  text-align: left;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin-right: 20px;
+  }
