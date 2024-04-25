@@ -1,5 +1,4 @@
 var tabela;
-//var url = document.referrer;
 
 function preload() {
   tabela =
