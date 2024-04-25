@@ -34,11 +34,11 @@ function draw() {
   divCaixa.addClass('caixa');
   divCaixa.center('horizontal'); 
   
-  pTitulo = createP(tabela.get(2,0));
+  pTitulo = createP(tabela.get(params.spell,0));
   pTitulo.addClass('titulo');   
   pTitulo.parent(divCaixa);
   
-  pCategoria = createP('Magia de' + " " + tabela.get(2,3));
+  pCategoria = createP('Magia de' + " " + tabela.get(params.spell,3));
   pCategoria.addClass('categoria');   
   pCategoria.parent(divCaixa);
   
@@ -46,7 +46,7 @@ function draw() {
   hrLinha.addClass('hr');   
   hrLinha.parent(divCaixa);
   
-  pCorpo = createP(tabela.get(2,14));
+  pCorpo = createP(tabela.get(params.spell,14));
   pCorpo.addClass('corpo');   
   pCorpo.parent(divCaixa);
 }
